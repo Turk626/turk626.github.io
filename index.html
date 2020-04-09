@@ -1,108 +1,34 @@
 <!doctype html><html lang="tr">
 <head>
-  <meta charset="UTF-8"><style>
-/*ShadoCauldron Genel Websitesi CSS Kuralları*/
-*{margin:0px; padding:0px;}
-#main{margin:24px auto; }
-
-body {
-  font-family: Arial;
-  background-color: #292929;
-  color: lightGray;
-  margin: 0;
-}
-
-p {
-  color: LightGray;
-  font-size: 21px
-  font-family: Arial;
-  margin: 0;
-}
-
-a:link {
-  color: #5EBBBD;
-}
-
-a:visited {
-  color: #28999C;
-}
-
-a:hover {
-  color: #529FA1;
-}
-
-a:active {
-  color: #65C7C9;
-}
-
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #19AFBD;
-  color: white;
-  font-size: 60px;
-}
-
-.footer {
-  left: 0;
-  bottom: 100;
-  width: 100%;
-  background-color: teal;
-  color: lightgray;
-  text-align: center;
-  font-size: 16px;
-}
-
-.button {
-  background-color: #19AFBD;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-family: Arial;
-  margin: 3px 2px;
-  cursor: pointer;
-}
-
-input[type=text], select {
-  background-color: #343434;
-  font-family: Arial;
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1.5px solid #252525;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=password], select {
-  background-color: #343434;
-  font-family: Arial;
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1.5px solid #252525;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-::-moz-selection {
-  color: white;
-  background: #36CFAB;
-}
-
-::selection {
-  color: white;
-  background: #36CFAB;
-}
-
-.content {padding:20px;}
-<style/>
+  <meta charset="UTF-8"><link href="https://shadocauldron.github.io/style.css" rel="stylesheet"/>
+  <title>ShadoCauldron Anasayfa</title>
+</head>
+<body>
+<div class="header">
+  <p>ShadoCauldron Anasayfa</p>
+</div>
+<div class="footer">
+  <p><b>Bağlantılar</b></p><br/>
+  <p>Discord sunucumuz: <a href="https://discord.gg/TzwQ3kY">https://discord.gg/TzwQ3kY</a></p>
+</div>
+<div class="content">
+  <p><b>Son Durum:</b></p><br/>
+  <p>"ShadoCauldron Bot" adlı Discord botunun 3.0.3 sürümü yapım aşamasına girdi.</p><br/>
+  <script>
+    function redirectToAppStorage() {
+      location.replace("https://shadocauldron.github.io/");
+    };
+    function redirectToDiscordBot() {
+      location.replace("https://pages.github.com/"); 
+    };
+  </script>
+  <div class="button" onclick="redirectToAppStorage();">ShadoCauldron</div>
+  <div class="button" onclick="redirectToDiscordBot();">GitHub Pages</div>
+</div>
+</body>
+</html><!doctype html><html lang="tr">
+<head>
+  <meta charset="UTF-8"><link href="https://shadocauldron.github.io/style.css" rel="stylesheet"/>
   <title>ShadoCauldron Anasayfa</title>
 </head>
 <body>
